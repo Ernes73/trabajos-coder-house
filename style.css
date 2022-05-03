@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: rgb(218, 220, 233);
+    background-color: rgb(28, 10, 71);
 }
 
 nav ul li {
@@ -28,7 +28,7 @@ nav ul li:hover {
 }
 
 nav {
-    background-color: black;
+    background-color: rgb(50, 4, 4);
     display: flex;
     flex-direction: column;
     align-items: center;
