@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: rgb(28, 10, 71);
+    background-color: rgb(51, 68, 174);
 }
 
 nav ul li {
@@ -28,7 +28,7 @@ nav ul li:hover {
 }
 
 nav {
-    background-color: rgb(50, 4, 4);
+    background-color: rgb(196, 196, 196);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -75,7 +75,7 @@ header img {
     font-family: 'Candal', sans-serif;
     font-size: 25px;
     font-weight: 600;
-    color: rgb(30, 28, 123);
+    color: rgb(220, 55, 9);
     text-shadow: 1px 1px 1px rgba(18, 16, 122, 0.409);
     text-align: center;
 }
@@ -84,7 +84,7 @@ header img {
     font-family: 'Candal', sans-serif;
     font-size: 18px;
     font-weight: 600;
-    color: rgb(30, 28, 123);
+    color: rgb(19, 199, 76);
     text-shadow: 1px 1px 1px rgba(18, 16, 122, 0.409);
     display: block;
     text-align: center;
@@ -94,7 +94,7 @@ header img {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
     font-weight: 700;
-    color: rgb(146, 75, 18);
+    color: rgb(49, 38, 29);
     text-shadow: 1px 1px 1px rgba(146, 75, 18, 0.468);
     display: block;
     text-align: center;
