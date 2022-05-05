@@ -3,6 +3,11 @@ body {
     background-color: rgb(218, 220, 233);
 }
 
+.img-nav {
+    border-radius: 3px;
+    opacity: 85%;
+}
+
 nav ul li {
     display: flex;
     flex-direction: column;
@@ -134,22 +139,6 @@ header img {
     margin-top: 50px;
 }
 
-footer {
-    background-color: rgb(0, 0, 0);
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-    color: rgb(196, 211, 211);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-footer section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;    
-    align-content: space-between;
-}
 
 .contenedor-shop {
     display: flex;
@@ -182,9 +171,6 @@ footer section {
     animation-timing-function: ease;
 }
 
-.trabajo-1 img, .trabajo-2 img, .trabajo-3 img{
-    max-width: 100%;
-}
 
 .contenedor-nosotros img {
     width: 100%;
@@ -220,14 +206,18 @@ thead {
     margin-bottom: 15px;
 }
 
+.table {
+    max-width: 80%;
+    margin-left: 10%;
+
+} 
+
 .pla{
     transition: all 1s;
 }
 
 .pla:hover {
-    background-color: rgb(163, 5, 5);
     transform: scale(1.1);
-    color: white;
     animation-timing-function: ease;
 }
 
@@ -235,10 +225,8 @@ thead {
     transition: all 1s;
 }
 
-.abs:hover {
-    background-color: rgb(163, 155, 5);
+.abs :hover {
     transform: scale(1.1);
-    color: white;
     animation-timing-function: ease;
 }
 
@@ -247,9 +235,7 @@ thead {
 }
 
 .flex:hover {
-    background-color: rgb(31, 148, 4);
     transform: scale(1.1);
-    color: white;
     animation-timing-function: ease;
 }
 
@@ -258,43 +244,22 @@ thead {
 }
 
 .ptge:hover {
-    background-color: rgb(0, 22, 134);
     transform: scale(1.1);
-    color: white;
     animation-timing-function: ease;
 }
 
-.contacto {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.row {
+    max-width: 80%;
+    padding-left: 10%;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
-.nombre, .telefono, .correo, .mensaje {
-    text-align: center;
-    margin-top: 20px;
+.mensaje {
+    height: 200px;
+    margin-bottom: 3px;
 }
 
-.nombre input, .telefono input, .correo input, .mensaje textarea {
-    border-radius: 10px;
-    border-width: 1px;
-    min-height: 20px;
-}
-
-.boton {
-    margin: 15px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    border-radius: 10px;
-    transition: all .5s;
-}
-
-.boton:hover {
-    background-color: rgb(54, 14, 147);
-    color: aliceblue;
-    animation-timing-function: ease;
-}
 
 @media screen and (min-width: 768px){
    
@@ -370,50 +335,6 @@ thead {
         margin-left: 15px;
         font-size: 30px;
     }
-
-    footer {
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
-    .trabajo-1 {
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .trabajo-1 img {
-        max-width: 40%;
-        border-radius: 15px;
-        margin-left: 15px;
-        margin-bottom: 15px;
-        margin-top: 10px;
-    }
-
-    .trabajo-2 {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .trabajo-2 img {
-        max-width: 40%;
-        border-radius: 15px;
-        margin-left: 15px;
-        margin-bottom: 15px;
-        margin-top: 10px;
-    }    
-
-    .trabajo-3 {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .trabajo-3 img {
-        max-width: 40%;
-        border-radius: 15px;
-        margin-left: 15px;
-        margin-bottom: 15px;
-        margin-top: 10px;
-    }    
 
     .nosotros {
         margin-right: 10%;
