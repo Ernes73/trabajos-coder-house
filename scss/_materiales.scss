@@ -1,0 +1,34 @@
+.contenedor-materiales {
+    margin-bottom: 15px;
+
+    .table {
+        text-align: left;
+        max-width: 80%;
+        margin-left: 10%;
+    
+        th, td {
+            padding: 20px;
+            border-style: solid;
+            border-color: black;
+            width: 60%;
+        }
+    
+        thead {
+            background-color: rgb(41, 53, 53);
+            color:  white;
+        }
+    }
+}
+
+  
+
+.pla, .abs, .flex, .ptge{
+    transition: all 1s;
+
+    &:hover {
+        transform: scale(1.1);
+        animation-timing-function: ease;
+    }
+    
+    
+}

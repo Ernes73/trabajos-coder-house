@@ -1,0 +1,23 @@
+.contenedor-nosotros{
+    
+    img {
+        width: 100%;
+    }
+
+    .titulo-1, .animate__rubberBand:hover {
+        animation: animate__rubberBand;
+        animation-duration: 1s;
+    }
+
+    .local {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .map {
+        border-radius: 20px;
+    }
+    
+}

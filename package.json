@@ -1,0 +1,25 @@
+{
+  "name": "trabajos-coder-house",
+  "version": "1.0.0",
+  "description": "Repo para entregar trabajos de coder house\r La pagina esta orientada en un emprendimiento de impresiones 3D, lo que se busca es que el cliente pueda \r conocer el mismo, poder realizar cualquier consulta o comprar productos desde el E-Shop.\r El sitio esta creado con leguajes de programacion HTML y CSS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ernes73/trabajos-coder-house.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ernes73/trabajos-coder-house/issues"
+  },
+  "homepage": "https://github.com/Ernes73/trabajos-coder-house#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}

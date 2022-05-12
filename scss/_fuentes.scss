@@ -1,0 +1,39 @@
+.titulo-1 {
+    font-family: $fuente-principal;
+    font-size: 40px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.74);
+    text-align: center;
+    margin-top: 15px;
+}
+
+.titulo-2 {
+    font-family: 'Candal', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.74);
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.titulo-3 {
+    font-family: $fuente-principal;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(146, 75, 18);
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.parrafo {
+    font-family: $fuente-principal;
+    font-weight: 700;
+    font-size: 18px;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
