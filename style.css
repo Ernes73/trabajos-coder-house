@@ -249,6 +249,10 @@ thead {
     transition: all 1s;
 }
 
+.pla {
+    color: #bb2929 !important;
+}
+
 .pla:hover {
     transform: scale(1.1);
     animation-timing-function: ease;
@@ -256,6 +260,10 @@ thead {
 
 .abs{
     transition: all 1s;
+}
+
+.abs {
+    background-color: #acb432 !important;
 }
 
 .abs:hover {
@@ -267,6 +275,10 @@ thead {
     transition: all 1s;
 }
 
+.flex {
+    background-color: #359b35 !important;
+}
+
 .flex:hover {
     transform: scale(1.1);
     animation-timing-function: ease;
@@ -274,6 +286,10 @@ thead {
 
 .ptge {
     transition: all 1s;
+}
+
+.ptge {
+    background-color: #3043b4 !important;
 }
 
 .ptge:hover {

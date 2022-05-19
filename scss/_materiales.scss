@@ -21,17 +21,29 @@
 }
 
   
-$materiales:(
-    PLA:#bb2929,
-    ABS:#acb432,
-    FLEX:#359b35,
-    PTGE:#3043b4
+$colores:(
+    color-1:#bb2929,
+    color-2:#acb432,
+    color-3:#359b35,
+    color-4:#3043b4
 
 );
-@each $material,$color in $materiales{
-    .material--#{$material}{
-        background-color:$color;
-    }
+
+
+.pla {
+    color: map-get($colores, color-1) !important;
+}
+
+.abs {
+    background-color: map-get($colores, color-2) !important;
+}
+
+.flex {
+    background-color: map-get($colores, color-3) !important;
+}
+
+.ptge {
+    background-color: map-get($colores, color-4) !important;
 }
 
 .pla, .abs, .flex, .ptge{

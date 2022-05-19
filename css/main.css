@@ -117,17 +117,17 @@
       background-color: #293535;
       color: white; }
 
-.material--PLA {
-  background-color: #bb2929; }
+.pla {
+  color: #bb2929 !important; }
 
-.material--ABS {
-  background-color: #acb432; }
+.abs {
+  background-color: #acb432 !important; }
 
-.material--FLEX {
-  background-color: #359b35; }
+.flex {
+  background-color: #359b35 !important; }
 
-.material--PTGE {
-  background-color: #3043b4; }
+.ptge {
+  background-color: #3043b4 !important; }
 
 .pla, .abs, .flex, .ptge {
   transition: all 1s; }
