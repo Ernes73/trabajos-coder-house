@@ -21,6 +21,18 @@
 }
 
   
+$materiales:(
+    PLA:#bb2929,
+    ABS:#acb432,
+    FLEX:#359b35,
+    PTGE:#3043b4
+
+);
+@each $material,$color in $materiales{
+    .material--#{$material}{
+        background-color:$color;
+    }
+}
 
 .pla, .abs, .flex, .ptge{
     transition: all 1s;

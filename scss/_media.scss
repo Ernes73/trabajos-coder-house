@@ -1,0 +1,108 @@
+@media screen and (min-width: 768px){
+   
+    nav {
+       flex-direction: row;
+       font-size: 20px;
+
+       img {
+        margin-left: 20px;
+        max-width: 45px;
+        margin-top: 0;
+
+        ul {
+            flex-direction: row;
+        }
+
+        li {
+            margin: 0 20px;
+
+            
+        }
+
+    }
+     
+   }
+
+
+   .local {
+        flex-direction: row;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .contenedor-pasos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+
+        grid-template-areas: 
+        "idea diseño"
+        "acuerdo impresion"
+        ;
+    }
+
+    .contenedor-shop {
+        flex-direction: row;
+        align-items: center;
+    }
+
+
+    .link-shop {
+
+        margin-right: 60px;
+    }
+    .cards {
+        max-width: 35%;
+    }
+
+    .idea {
+        grid-area: "idea";
+        display: flex;
+        flex-direction: row;
+    }
+
+    .card{
+        transition: all 1s; 
+
+        &:hover{
+            box-shadow: $shadow;
+        }
+    }
+
+    .diseño {
+        grid-area: "diseño";
+        display: flex;
+        flex-direction: row;
+    }
+
+    .acuerdo {
+        grid-area: "acuerdo";
+        display: flex;
+        flex-direction: row;
+    }
+
+    .impresion {
+        grid-area: "impresion";
+        display: flex;
+        flex-direction: row;
+    }
+
+    .img-lampara, .img-diseño, .img-acuerdo, .img-impresion {
+        max-width: 30%;
+        margin-left: 15px;
+    }
+
+    .titulo-3 {
+        margin-top: 100px;
+        margin-left: 15px;
+        font-size: 30px;
+    }
+
+    .nosotros {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+
+}
